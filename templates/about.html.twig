@@ -1,0 +1,35 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello Controller!{% endblock %}
+
+{% block body %}
+
+        <div style="height:50px!important;"></div>
+
+        <div class="container">
+                <div class="row col d-flex justify-content-center">{{cards|raw}}</div>
+                
+                <div style="height:50px!important;"></div>
+                
+                <div class="row col d-flex justify-content-center"><p class="lead text-muted">Ou bien par mail :</p></div>
+                
+                
+                <!-- form contact BOOTSTRAP -->
+
+
+                <form>
+                        <div class="form-group">
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="mail">
+                        </div>
+                
+                        <div class="form-group">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="text"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+
+                <!-- FIN form contact BOOTSTRAP -->
+
+        </div> 
+
+{% endblock %}

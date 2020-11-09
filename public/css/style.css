@@ -1,0 +1,15 @@
+a {
+    -webkit-transform: scale(1)!important;
+	transform: scale(1)!important;
+	-webkit-transition: .3s ease-in-out!important;
+	transition: .3s ease-in-out!important;
+}
+
+a:hover {
+    -webkit-transform: scale(1.3)!important;
+	transform: scale(1.3)!important;
+}
+
+body { 
+    background-color: black!important;
+}

@@ -1,0 +1,33 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello Controller!{% endblock %}
+
+{% block body %}
+
+
+<main role="main">
+
+      <section class="jumbotron text-center">
+        <div class="container">
+          <h1 class="jumbotron-heading">Boutique e-commerce</h1>
+          </br>
+          <p class="lead text-muted">Achat et vente de vêtements, sneakers, etc. Dans l'univers du cinéma, anime, jeux vidéos ..</p>
+          <p>
+            <a href="#" class="btn btn-primary my-2">Nous contacter</a>
+          </p>
+        </div>
+      </section>
+
+      <div class="container">
+        <div class="row" >{{cards|raw}}</div>
+
+      </div>  
+        
+            
+
+</main>
+
+
+{% endblock %}
+
+
