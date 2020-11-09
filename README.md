@@ -2,6 +2,12 @@ Blog créer par Lucas Perez
 
 Pour configuer l'application : 
 
+# vendor : 
+
+Ajouter le vendor avec la commande :
+
+composer update
+
 # .env : 
 Récupérer le code du fichier env.dist, créer un fichier .env et coller le code précédemment copié
 
