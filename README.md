@@ -6,12 +6,14 @@ Pour configuer l'application :
 Récupérer le code du fichier env.dist, créer un fichier .env et coller le code précédemment copié
 
 # script
-Dans le dossier bdd, script .sql de l'application, avec toutes les données 
+Dans le dossier bdd, script .sql de l'application, avec toutes les données à ajouter
 # infos
 DATABASE_URL=mysql://root:root@127.0.0.1:8889/blog?serverVersion=5.7
 
 Identifiant : root
+
 Mot de passe : root
+
 Nom de la database : blog
 
 # utilisation des identifiants
