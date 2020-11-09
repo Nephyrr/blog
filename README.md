@@ -2,10 +2,9 @@ Blog créer par Lucas Perez
 
 Pour configuer l'application : 
 
-.env : 
+# .env : 
 Récupérer le code du fichier env.dist, créer un fichier .env et coller le code précédemment copié
 
-Base de donnée
 # script
 Dans le dossier bdd, script .sql de l'application, avec toutes les données 
 # infos
@@ -20,14 +19,20 @@ Indentifiants pour se connecter dans la partie login du blog
 
 Identifiants admins (accès à la modification des articles): 
 
-mail : lucasperez702@gmail.com mdp : 1234
-mail : a@a.a mdp : a
+mail : lucasperez702@gmail.com
+mdp : 1234
+
+mail : a@a.a
+mdp : a
 
 Identifiants utilisateurs (accès au visuel des articles):
 
-mail : test@test.com mdp : test
-mail: euh@euh.com mdp : euh
+mail : test@test.com
+mdp : test
 
-Running the app
-# server
+mail: euh@euh.com
+mdp : euh
+
+
+# Running the app : server
 $ symfony server:start
