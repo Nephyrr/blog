@@ -1,5 +1,20 @@
 Blog créer par Lucas Perez
 
+# Intro
+
+C'est un blog pour m'entraîner à réaliser des sites e-commerce en Symfony. 
+
+Ce site permet pour l'instant de pouvoir voir différents articles. 
+Un espace de login permet de se connecter, sous différents status, 
+un admin qui permet de modifier, supprimer, ajouter un article,
+ou un utilisateur, qui peut seulement visualiser les articles. 
+
+Affichage dynamique des articles (images des élèves de ma promo comme teste). 
+
+Nouveautés que j'ai déjà réalisées, mais pas encore dans ce projet : 
+Les translations, le contrôle des API
+
+
 Pour configuer l'application : 
 
 # vendor : 
